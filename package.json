@@ -1,5 +1,5 @@
 {
-  "name": "hot-formula-parser",
+  "name": "@builttocreate/hot-formula-parser",
   "version": "4.0.0",
   "description": "Formula parser",
   "main": "./index",
@@ -11,7 +11,8 @@
     ".": {
       "import": "./index.mjs",
       "require": "./index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "scripts": {
     "clean": "rimraf tmp coverage",
